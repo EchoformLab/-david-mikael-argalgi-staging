@@ -10,3 +10,7 @@ header{position:sticky;top:0;z-index:20;background:rgba(7,9,12,.96);border-botto
 footer{padding:34px 0;border-top:1px solid var(--line);color:#8f979f}.footer-row{display:flex;justify-content:space-between;gap:20px}.quote{font:italic 16px Georgia;color:var(--gold)}
 @media(max-width:960px){.menu,.pill{display:none}.hero-grid{grid-template-columns:1fr;padding:48px 0}.platforms{grid-template-columns:repeat(3,1fr)}.cards{grid-template-columns:1fr 1fr}.split,.contact-grid{grid-template-columns:1fr}.service-grid{grid-template-columns:repeat(3,1fr)}h1{font-size:46px}}
 @media(max-width:620px){.platforms{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.service-grid{grid-template-columns:repeat(2,1fr)}h1{font-size:39px}.page-hero h1{font-size:40px}.section{padding:58px 0}}
+.platform{transition:transform .18s ease,border-color .18s ease,background .18s ease}.platform:hover{transform:translateY(-4px);border-color:var(--gold);background:#141b22}
+.listen-here{display:grid;grid-template-columns:.8fr 1.2fr;gap:34px;align-items:center;margin-top:46px;padding:28px;background:var(--panel);border:1px solid #202a33;border-radius:18px}
+.spotify-embed{border-radius:14px;display:block}
+@media(max-width:800px){.listen-here{grid-template-columns:1fr}}
